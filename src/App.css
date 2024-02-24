@@ -1,0 +1,105 @@
+/* App.css */
+
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+  }
+  
+  .product-app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .product-item {
+    width: calc(25% - 10px); /* ให้สินค้าแสดงเป็นสี่คอลัมน์ */
+    margin-bottom: 30px; /* เพิ่มช่องว่างระหว่างรายการสินค้า */
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #333;
+  }
+
+  .product-app h1{
+    display: flex;
+    padding-left:  220px;
+  }
+  
+  .product-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: auto; /* จัดให้รูปภาพอยู่ตรงกลาง */
+  }
+  
+  .product-info h3 {
+    margin: 0;
+    color: #fff;
+  }
+  
+  .product-info p {
+    margin: 5px 0;
+    color: #ccc;
+  }
+  
+  .product-actions button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .product-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .product-form {
+    margin-bottom: 20px;
+  }
+  
+  .product-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ccc;
+  }
+  
+  .product-form input[type="number"],
+  .product-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .product-form button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .product-form button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
